@@ -1,6 +1,7 @@
 {
 	"scripts": {
-		"watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+		"postinstall": "cd admin_app && npm install ",
+		"watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached --config ./config/webpack.config.js ",
 		"build": "webpack --progress --profile --colors --display-error-details --display-cached --config ./config/webpack.config.js "
 	},
 	"private": true,
