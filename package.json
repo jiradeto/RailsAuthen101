@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+		"build": "webpack --progress --profile --colors --display-error-details --display-cached --config ./config/webpack.config.js "
+	},
+	"private": true,
+	"dependencies": {},
+	"devDependencies": {
+		"assets-webpack-plugin": "latest",
+		"webpack": "2.3.3"
+	}
+}
